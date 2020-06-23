@@ -1,16 +1,20 @@
 {
-    "name": "liyu/dingo-serializer-switch",
+    "name": "alipeng/dingo-serializer-switch",
     "description": "A middleware to switch dingo serializer",
     "license": "MIT",
     "authors": [
         {
             "name": "Yu Li",
             "email": "liyu001989@gmail.com"
+        },
+        {
+            "name": "Alipeng",
+            "email": "alipeng@aliyun.com"
         }
     ],
     "require": {
         "php": ">=7.0",
-        "dingo/api": "^2.0"
+        "dingo/api": "^2.0|^3.0"
     },
     "autoload": {
         "psr-4": {
